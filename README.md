@@ -2,7 +2,7 @@ Aws PollyDemo Sample
 =============================================
 This project is based on https://github.com/awslabs/aws-sdk-android-samples/tree/master/PollyDemo
 
-This sample demonstrates how to use [Amazon Polly Console](https://aws.amazon.com/pt/polly/) client library on Android.  This application uses AWS Cognito for authentication with Amazon Polly.
+This sample demonstrates how to use [Amazon Polly](https://aws.amazon.com/pt/polly/) client library on Android.  This application uses AWS Cognito for authentication with Amazon Polly.
 
 ## Using the Sample
 
