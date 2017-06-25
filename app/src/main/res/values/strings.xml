@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AWS Polly Demo</string>
+    <string name="read">Read Text</string>
+</resources>
