@@ -1,11 +1,8 @@
-Running PollyDemo Sample
+Aws PollyDemo Sample
 =============================================
+This project is based on https://github.com/awslabs/aws-sdk-android-samples/tree/master/PollyDemo
+
 This sample demonstrates how to use Amazon Polly client library on Android.  This application uses AWS Cognito for authentication with Amazon Polly.
-
-## Requirements
-
-* AndroidStudio
-* Android API 10 or greater
 
 ## Using the Sample
 
@@ -51,13 +48,13 @@ This sample demonstrates how to use Amazon Polly client library on Android.  Thi
 
 1. Open the PollyDemo project.
 
-1. Open `MainActivity.java` and update the following constants with the appropriate values:
+1. Open `util.Polly.java` and update the following constants with the appropriate values:
 
     ```
-    COGNITO_POOL_ID = "CHANGE_ME";
+    COGNITO_POOL_ID = "";
     MY_REGION = Regions.US_EAST_1;
     ```
 
 1. Build and run the sample app.
 
-1. Select Amazon Polly voice, enter any text you want to read (or leave the text field blank to use the provided sample text) and press the "Play" button.
+1. Select Amazon Polly voice, enter any text you want to read (or leave the text field blank to use the provided sample text) and press the "Read Text" button.
